@@ -56,7 +56,7 @@ const Todo = () => {
         </div>
 
         {/* GET ALL / Todo */}
-        <div className="max-h-[410px] text-white overflow-scroll">
+        <div className="max-h-[410px] text-white overflow-y-auto">
           {data.map((d) => {
             return (
               <div key={d.id} className="flex justify-between m-2 p-2 ">
